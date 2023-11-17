@@ -43,7 +43,7 @@ function App() {
                 <div key={i}>{` ${content}`}</div>
               ))}
             </Card.Text>
-            <Button className='primary'>Button</Button>
+            <Button className='btn primary-btn container'>Button</Button>
           </Card.Body>
         </Card>
       ))}
